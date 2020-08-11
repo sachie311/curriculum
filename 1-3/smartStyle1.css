@@ -1,0 +1,36 @@
+@media screen and (max-width:767) {
+.wrapper {
+        width: 250px;
+    }
+.header {
+    width: 250px;
+}
+.right {
+    width: 100px;
+}
+.footer {
+    width: 250px;
+}
+}
+@media screen and (max-width:479px) {
+    .wrapper {
+        width: 150px;
+    }
+    .header {
+        width: 150px;
+    }
+    .contents {
+        width: 150px;
+        height: 500px;
+    }
+    .right {
+        float: none;
+        width: 150px;
+    }
+    .left {
+        float: none;
+    }
+    .footer {
+        width: 150px;
+    }
+}
